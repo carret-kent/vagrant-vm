@@ -1,0 +1,8 @@
+---
+# web server
+- name: deploy web
+  hosts: web
+  remote_user: vagrant
+  tags: web
+  roles:
+    - role: common
